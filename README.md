@@ -55,3 +55,5 @@ node server.js
 
 ## Step 4: Testing
 Open your web browser and navigate to http://localhost:3000.
+## step 5: Web hosting and deployment
+Open this link: https://6669f2991f8d1b1cdd468e85--luxury-tartufo-d87101.netlify.app/
