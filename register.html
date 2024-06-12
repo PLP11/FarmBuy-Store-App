@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmBuy Online Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('images/home.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            font-size: 30px;
+            
+        }
+        input {
+            margin-top: 10px;
+            padding: 5px;
+          
+        }
+        button{
+        
+            margin-top: 1rem;
+            display: inline-block;
+            padding: .8rem 3rem;
+            font-size: 1.7rem;
+            border-radius: .5rem;
+            border: .2rem solid var(--black);
+            color: var(--black);
+            cursor: pointer;
+            background: none;
+            text-decoration-line: none;
+            font-weight: 600;
+
+
+        }
+        button:hover{
+            background: var(--orange);
+            color: #fff;
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body >
+ 
+    <form id="register-form">
+        <h1>FarmBuy Online Shop</h1>
+        <h2>Register</h2>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="full_name" placeholder="Full Name" required>
+    
+        <button type="submit">Register</button>
+        <a href="login.html" class="btn">login now </a>
+      
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
