@@ -32,7 +32,7 @@ CREATE TABLE users (
     password VARCHAR(255),
     email VARCHAR(255) UNIQUE,
     full_name VARCHAR(255)
-);
+);http://localhost:3000.
 ```
 ### Create other database table to handle the data
 
@@ -54,6 +54,6 @@ node server.js
 ### Create a `script.js` file to handle frontend interactions.
 
 ## Step 4: Testing
-Open your web browser and navigate to http://localhost:3000.
+Open your web browser and navigate to https://farmbuystore.netlify.app/
 ## step 5: Web hosting and deployment
 Open this link: https://farmbuystore.netlify.app/
